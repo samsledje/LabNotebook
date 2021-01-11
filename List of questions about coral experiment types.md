@@ -1,0 +1,9 @@
+- What _types_ of experiments can you run? Some examples I could think of:
+    - Test direct protein interaction?
+    - Test effect of protein on pathway?
+    - Test effect of pathway on protein?
+    - Test effect of stressor on protein?
+    - Test effect of stressor on protein interaction?
+- What _genes_ are you interested in knowing more about?
+- What _pathways_ are you interested in knowing more about?
+- What _processes_ are you interested in knowing more about?

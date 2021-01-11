@@ -1,0 +1,4 @@
+- Start a new project template with [Cookie Cutter Data Science](http://drivendata.github.io/cookiecutter-data-science/)
+- Use an IDE tailored for exploration with [nbdev](https://www.fast.ai/2019/12/02/nbdev/)
+- Deploy a notebook as an interactive web app with [Voila](https://github.com/voila-dashboards/voila)
+- Parameterize notebooks for production use with [Papermill](https://github.com/nteract/papermill)
