@@ -8,7 +8,7 @@ DEBUG = False
 if DEBUG:
     SITE_ROOT = "localhost:8080/"
 else:
-    SITE_ROOT = "https://samsledje.github.io/NetNotebook/"
+    SITE_ROOT = "https://samsledje.github.io/LabNotebook/"
 
 class LinkParser:
     def __init__(self,filePath):
