@@ -1,6 +1,0 @@
-- [ ] Megha - Phone Tripod + ____
-- [x] Ron - [Pizza Stone](https://www.amazon.com/Old-Stone-Oven-Round-Pizza/dp/B07ZV3NPR7/)
-- [x] Nana - [Barack Obama Book](https://www.amazon.com/Promised-Land-Barack-Obama/dp/1524763160/)
-- [x] Sydney - [Homebody Book](https://www.amazon.com/Homebody-Guide-Creating-Spaces-Never/dp/006280197X/)
-- [x] Summer - [Candle Set](https://www.amazon.com/CREASHINE-Scented-Christmas-Aromatherapy-Relaxation/dp/B07RJ3WSB7/)
-- [x] Aunt Kathy - [Indoor Herb Garden](https://www.amazon.com/Indoor-Herb-Garden-Starter-Kit/dp/B06ZY8JGJ4/)

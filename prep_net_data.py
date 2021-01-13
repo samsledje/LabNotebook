@@ -2,10 +2,7 @@ import os
 import json
 import re
 
-<<<<<<< HEAD
 WRITE_HTML = False
-=======
->>>>>>> fc76fb863c0d1784d2d641427d95d3526622da1f
 DEBUG = False
 
 if DEBUG:
@@ -17,11 +14,7 @@ class LinkParser:
     def __init__(self,filePath):
         self.site_root = SITE_ROOT
         self.filePath = filePath
-<<<<<<< HEAD
         self.name = self.filePath.split(".md")[0]
-=======
-        self.name = self.filePath.rstrip(".md")
->>>>>>> fc76fb863c0d1784d2d641427d95d3526622da1f
         self.links = []
 
         self._parse_file()

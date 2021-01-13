@@ -1,5 +1,0 @@
-- [Gear List](https://www.thehikinglife.com/2020/01/a-quick-dirty-guide-to-italys-alta-via-1/)
-- [Dolomites AV1](https://www.alpineexploratory.com/walking-guides/alta-via-1.html)
-- [Dolomites AV1 Quick and Dirty Guide](https://www.thehikinglife.com/2020/01/a-quick-dirty-guide-to-italys-alta-via-1/)
-- [Dolomites AV2 Quick and Dirty Guide](https://www.thehikinglife.com/2019/11/a-quick-and-dirty-guide-to-the-alta-via-2/)
-- [Dolomites AV2 AllTrails](https://www.alltrails.com/explore/map/alta-via-2-brixen-to-feltre?referrer=gpsies)

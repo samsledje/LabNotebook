@@ -1,3 +1,0 @@
-# Trafford
-
-[[Gildong's Lair]]
