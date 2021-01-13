@@ -2,12 +2,10 @@
 [Thesis Proposal and Thesis Guidelines](http://www.eecs.mit.edu/docs/grad/EECS_Thesis_Proposal_and_Thesis_Guidelines.pdf)
 [Thesis Submission Guidelines](http://www.eecs.mit.edu/docs/grad/EECS_Graduate_Thesis_Submission_Guidelines.pdf)
 
-## Proposal
-Current Status
-Future Work
-[Overleaf](https://www.overleaf.com/project/5fa961cedb81d99105ae712f)
+# Proposal
+- [[Master's Thesis Proposal Text]]
+- [Overleaf](https://www.overleaf.com/project/5fa961cedb81d99105ae712f)
 
-## Outline
 ### Background
 Bepler & Berger
 TAPE
@@ -34,12 +32,14 @@ Investigate protein interaction from a structural perspective -- leverage advanc
     - Interaction data from STRING
     - Structural data from PDB, 3DID, Vreven Docking
 
+
+
 # Misc Notes
 
 
 # Outline
 
 
-# [[Master's Thesis Proposal Text]]
+# [[Master's Thesis Text]]
 
 # Defense

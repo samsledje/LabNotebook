@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Master's Thesis.md",
+            "file": "Binding Pocket Characterization.md",
             "mode": "source"
           }
         }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master's Thesis.md",
+                "file": "Binding Pocket Characterization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master's Thesis.md"
+                "file": "Binding Pocket Characterization.md"
               }
             }
           },
@@ -127,15 +127,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Binding Pocket Characterization.md",
+    "ManuscriptPDFs/Kolodny_Global_View_Of_Protein_Universe.pdf",
+    "SARS-Cov-2 Phylogenetics.md",
+    "Berger Lab Getting Started.md",
     "Master's Thesis.md",
-    "Master's Thesis Proposal Text.md",
     "Master's Thesis Text.md",
-    "Running PatchBag.md",
-    "Attachments/Master_Proposal.pdf",
-    "Research Tasks.md",
-    "Compare performance with MSA based models.md",
-    "ManuscriptPDFs/Kolodny_Protein_Interface_Similarity.pdf",
-    "Dolomites Hiking Trip.md",
-    "Personal/Inbox.md"
+    "Master's Thesis  Text.md",
+    "Master's Thesis Proposal Text.md",
+    "Megha Birthday 2021.md",
+    "Research Tasks.md"
   ]
 }

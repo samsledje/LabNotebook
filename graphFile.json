@@ -1,0 +1,13 @@
+{
+    "nodes":[
+        {"name":"Degree","url":"./Degree.md"},
+        {"name":"D-SCRIPT","url":"./D-SCRIPT.md"},
+        {"name":"Research","url":"./Research.md"},
+        {"name":"RQE","url":"./RQE.md"},
+        {"name":"Doctoral Thesis","url":"Doctoral Thesis.md"}
+    ],
+    "links":[
+        {"source":2,"target":1},
+        {"source":0,"target":2}
+    ]
+}
