@@ -15,6 +15,9 @@ class LinkParser:
         self.site_root = SITE_ROOT
         self.filePath = filePath
         self.name = self.filePath.split(".md")[0]
+        self.shortname = self.name
+        if len(self.name) > 35:
+            self.shortname = self.name[:32]+"..."
         self.links = []
 
         self._parse_file()
@@ -40,7 +43,7 @@ class LinkParser:
                 linkPath = f"[{linkName}]({self.site_root}{linkName}.md)"
                 newTxt += linkPath
                 linkTxt = ''
-                self.links.append((self.name, linkName))
+                self.links.append((self.shortname, linkName))
                 inLink = False
                 continue
             if inLink:
@@ -70,7 +73,7 @@ for fi in markdown_files:
         url = f"{SITE_ROOT}{lp.name}.md"
     else:
         url = f"{SITE_ROOT}{lp.name}"
-    data["nodes"].append({"name":lp.name,"url":url})
+    data["nodes"].append({"name":lp.shortname,"url":url,"full_name":lp.name})
     nodes.append(lp.name)
 
 for lp in lpObjects:
