@@ -1,0 +1,15 @@
+- [x] TQE
+    - [x] 6.878 - Advanced Comp Bio - Gen, Net, Evol
+    - [x] 6.437 - Inference and Information
+    - [x]  6.840 Theory of Computation
+    - [x] 6.255 - Optimization Methods
+- [ ] [[RQE]]
+- [ ] [[Master's Thesis]] Proposal
+- [ ] [[Master's Thesis]] Defense
+- [ ] Minor
+    - [ ] Course 1
+    - [ ] Course 2
+- [ ] Professional Requirement 1
+- [ ] Professional Requirement 2
+- [ ]  [[Doctoral Thesis]] Proposal
+- [ ] [[Doctoral Thesis]] Defense

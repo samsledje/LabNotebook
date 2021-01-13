@@ -1,0 +1,5 @@
+- [[Epistasis_Calcium_Dependent_Kinsases_Malaria_Fang.pdf | Malaria]]
+- [[Protein_Interaction_Network_of_Malaria_LaCount.pdf]]
+- [Host-Parasite Interation](https://www.frontiersin.org/articles/10.3389/fmicb.2017.00889/full)
+- [PPI in Malaria Chemotherapeutics](https://www.intechopen.com/books/parasitology-and-microbiology-research/protein-protein-interactions-in-malaria-emerging-arena-for-future-chemotherapeutics)
+- [PlasmoDB](https://pubmed.ncbi.nlm.nih.gov/18957442/)

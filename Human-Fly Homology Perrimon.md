@@ -1,0 +1,5 @@
+Hi folks,
+
+ I was speaking with Prof. Norbert Perrimon of HMS about some work that we're doing with their lab. In the process, talk turned to [[CASP14 what Google DeepMind’s AlphaFold 2 really achieved, and what it means for protein folding, biology and bioinformatics | Alphafold]] and I brought up our [[D-SCRIPT]] method as another example of machine learning that captures structure from sequence. Norbert has long been interested in getting better #homology mapping between fly and human #proteins (their lab is a fly lab). I had thought that this would've been solved by now, but apparently not-- there are cases where this is still hard to do. In principle, we could use our embeddings to find the closest fly protein for a human protein. The tedious part here will be evaluation-- showing that this is better than other homology predictions; but that also shouldn't be terribly bad and some of our GO-based approaches should translate. 
+
+Not saying we should do this now, but it's a cute small problem for when you're looking to kill some time.
