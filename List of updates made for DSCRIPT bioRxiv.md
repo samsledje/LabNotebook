@@ -1,0 +1,7 @@
+- Appendix A.2. -- Discussion of Model Complexities / Number of Paremters / Overfitting
+- Sec2.1.3 -- Justify use of [multiplication | absolute difference] citing Bepler & Berger + their source
+- Sec 2.1.3 -- Clarify convolutional parameters in Eq. 5
+- Sec 2.1.3 -- Convolutional filter is 0 padded
+- Sec2.2 -- Discussion of how MAG loss leads to few high probability interactions
+- Sec3: D-SCRIPT Excels... -- Clarify PIPR also trained on human PPIs
+- Appendix A.4 -- Cite [17,19] for justification of train test split by edges

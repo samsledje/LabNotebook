@@ -1,5 +1,6 @@
 ## [[CNN Protein Contact Prediction | PPI Prediction Methods]]
-- [ ] #important 2 page camera ready for RECOMB proceedings #due 22 January
+- [x] #important 2 page camera ready for RECOMB proceedings #due 22 January
+    - [[List of updates made for DSCRIPT bioRxiv]]
 - [ ] #important Update paper for bioRxiv #due 22 January
 - [ ] #important Get [[Compare performance with MSA based models | MSA]] contact map prediction running
 - [ ] [[Biological Case Study for RECOMB Cell Systems]] #due 1 April
@@ -12,10 +13,10 @@
 ---
 ## [[Binding Pocket Characterization]]
 - [x] #important Get [[Kolodny_Protein_Interface_Similarity.pdf | PatchBag]] up and running to generate basis vectors for a given protein - [[Running PatchBag]]
-- [ ] #important Compare clustering in D-SCRIPT embedding space and PatchBag space -- how similar are they _out of the bag_
+- [x] #important Compare clustering in D-SCRIPT embedding space and PatchBag space -- how similar are they _out of the bag_
 - [ ] Recovering Patch Bag Embeddings
     - [x] Generate patch bag embeddings for known PDB proteins
-    - [ ] Cluster patch bag embeddings
+    - [x] Cluster patch bag embeddings
     - [ ] Train a model from our embeddings and contact maps to recover the clustering
     - [ ] Train a model from our embeddings to recover their embeddings directly
 - [ ] How do PatchBag distances correlate with random walk distances in the PPI network?
@@ -26,10 +27,10 @@
 ---
 ## [[Coral PPI Prediction]]
 - [ ] We need to generate [[Coral experimental candidates]] for experimental validation ASAP
+    - 20-100 candidate interactions 
     - [x] Put together [[List of questions about coral experiment types]] 
     - [x] [[Meet with Natasha and Judith 05 Jan 2021]]
     - [x] [[Meeting with Hollie 04 Jan 2021]]
-- [Candidate PPIs Google Sheet](https://docs.google.com/spreadsheets/d/1w-fJ8koBLLAzB_tMVrrdSSDLqvzsnsuprbEMwcJ89ZE/edit?usp=sharing)
 - [ ] Map [ReefGenomics](http://pdam.reefgenomics.org/) [Pdam](https://www.nature.com/articles/s41598-018-34459-8) IDs to NCBI IDs
 - [ ] Enrichment of high/low pH interactions --> Federica Scucchia Haifa
 
@@ -38,11 +39,17 @@
 
 ---
 ## [[SARS-Cov-2 Phylogenetics]]
+- [ ] Hammer out detailed methods with Sumaira
+- [ ] Update leaf names on circular ancestral transfers plot to be more readable
+- [ ] Check _direction_ of transfers
+    - [ ] And update Circos plot
+- [ ] Compute statistics on individual transfers and bunched transfers
+- [ ] Standardize name map (and update figures)
+
 - [x] Read papers in [[Reading List#Species Tree Estimation]] and [[Reading List#Recombination Detection]]
 - [x] Identify transfers with >80% bootstrap support and top transfers in clade of interest
 - [x] Present tables in tree/figure format for next week
 - [x] Schedule a meeting with Sumaira
-- [ ] Hammer out detailed methods with Sumaira
 - [x] Identify important transfers to present with Sumaira
 
 ## General

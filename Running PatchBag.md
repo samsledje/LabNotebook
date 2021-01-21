@@ -11,13 +11,15 @@
 
 1. Run DSSP on PDB file
 2. Residues with >20% accessibility are on the surface
-4. Create interface file with X-CA Y-CA Z-CA, Prop0, Prop1, Residue #, Interface(0/1)
+    **NOTE** Divide accessibility by maximum accessibility, we DO NOT know maximum accessibility for [SEC, PYL, UNK](https://www.genome.jp/kegg/catalog/codes1.html)
+3. Create interface file with X-CA Y-CA Z-CA, Prop0, Prop1, Residue #, Interface(0/1)
 ```
-ls ~/db/pdb_STRING/ | grep pdb | parallel --eta 'bash extractInterfaceFileFromPSB.sh {.}.pdb ~/db/pdb_STRING/ ~/db/pdb_STRING/interfaces 15'
+ls ~/db/pdb_STRING/ | grep pdb | parallel --eta 'bash extractInterfaceFileFromPDB.sh {.}.pdb ~/db/pdb_STRING/ ~/db/pdb_STRING/interfaces 15'
 ```
 
 5. Compute patchBag of interface file
+    Can launch MATLAB in cmd line only with -nojvm
 
 ```
-[ PatchBagMatrix ] = createPatchbag(6, 50, '/afs/csail/u/s/samsl/db/pdb_STRING/interfaces/', [start], [end], 0, 'inter', 'R')
+[ PatchBagMatrix ] = createPatchbag(6, 50, '/afs/csail/u/s/samsl/Work/network_coloring/vreven_interfaces/', 1, 3, 0, 'inter', 'R')
 ```

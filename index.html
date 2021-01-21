@@ -1,22 +1,15 @@
 <html>
 <head>
-  <title>Digital Lab Notebook</title>
+  <title>Digital Lab Notebook - Samuel Sledzieski</title>
   <link rel="icon" 
       type="image/png" 
       href="favicon.ico">
-  <!-- Latest compiled and minified CSS -->
+  <!-- Latest compiled and minified CSS
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script
-  src="https://code.jquery.com/jquery-3.5.1.min.js"
-  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-  crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
   <meta charset="utf-8" />
 </head>
 
@@ -39,21 +32,50 @@
     pointer-events: none;
   }
 </style>
+
 <body>
-
 <div class="container-fluid">
-  <h1 class="row text-center"><a href="http://samsledje.github.io/LabNotebook">LabNotebook</a></h1>
-
-  <div class="row container-fluid">
-    <button class="btn btn-primary center-block" type="button" data-toggle="collapse" data-target="#openForScience" aria-expanded="false" aria-controls="openForScience">
-      #OpenForScience
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Samuel Sledzieski</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="card center-block">
-      <div class="card-body collapse text-center" id="openForScience" style="width:40%; border-style: solid; border-width: 2px; padding: 10px; margin: auto;">
-        I believe the scientific endeavor is best served by transparent and reproducible work. It is my goal to participate in open science and share not only outcomes but process.
-        My notebook documents thoughts, analyses, knowledge gains, roadblocks, detours, and products. My goal is to facilitate scientific advancement through the open sharing of data and analytical approaches. As with science, this notebook is a work in process, hopefully advancing with every iteration.
-        The notebook is platformed on GitHub and is directly linked to GitHub repositories that contain further details than will be presented in notebook posts. The notebook and repositories are dynamic real-time documents.
-      </div>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class = "nav-item">
+          <a class="nav-link" href="http://samsledje.github.io/">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class = "nav-item">
+          <a class="nav-link" href="http://samsledje.github.io/research">Research</a>
+        </li> -->
+        <li class = "nav-item">
+            <a class="nav-link" href="http://samsledje.github.io/publications">Publications</a>
+        </li>
+        <li class = "nav-item"></li>
+            <a class="nav-link" href="http://samsledje.github.io/software">Software</a>
+        </li>
+        <li class = "nav-item active">
+          <a class="nav-link" href="http://samsledje.github.io/LabNotebook">Lab Notebook</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://samsledje.github.io/cv/">CV</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="d-flex justify-content-center" style="padding: 8px;">
+      <button class="btn-sm btn-primary" type="button" data-toggle="collapse" data-target="#openForScience" aria-expanded="false" aria-controls="openForScience">
+        #OpenForScience
+      </button>
+  </div>
+
+  <div class="card">
+    <div class="card-body collapse text-center" id="openForScience" style="width: 80%; font-size: 14px; margin: auto;">
+      I believe the scientific endeavor is best served by transparent and reproducible work. It is my goal to participate in open science and share not only outcomes but process.
+      My notebook documents thoughts, analyses, knowledge gains, roadblocks, detours, and products. My goal is to facilitate scientific advancement through the open sharing of data and analytical approaches. As with science, this notebook is a work in process, hopefully advancing with every iteration.
+      The notebook is platformed on GitHub and is directly linked to GitHub repositories that contain further details than will be presented in notebook posts. The notebook and repositories are dynamic real-time documents.
     </div>
   </div>
 
@@ -73,6 +95,10 @@
 
 </div>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
   <footer>
     <script src="//d3js.org/d3.v3.min.js"></script>
@@ -81,14 +107,14 @@
    d3.json("graphFile.json", function(data) {
 
     var transition_time = 200;
-    var forceDistance = 80;
+    var forceDistance = 50;
     var forceCharge = -300;
 
     var nodes = data.nodes;
     var links = data.links;
 
     var width = screen.width,
-        height = screen.height * 0.85;
+        height = screen.height * 0.65;
     
     var force = d3.layout.force()
         .nodes(d3.values(nodes))
