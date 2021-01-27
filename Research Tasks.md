@@ -11,9 +11,10 @@
 - [x] Submit abstract to [CSHL Networks Meeting](https://meetings.cshl.edu/meetings.aspx?meet=NETWORK&year=21)
 
 ---
-## [[Binding Pocket Characterization]]
+## [[Interface Classification]]
 - [x] #important Get [[Kolodny_Protein_Interface_Similarity.pdf | PatchBag]] up and running to generate basis vectors for a given protein - [[Running PatchBag]]
 - [x] #important Compare clustering in D-SCRIPT embedding space and PatchBag space -- how similar are they _out of the bag_
+- [ ] #important Share patchBag code with Kapil
 - [ ] Recovering Patch Bag Embeddings
     - [x] Generate patch bag embeddings for known PDB proteins
     - [x] Cluster patch bag embeddings
@@ -23,14 +24,13 @@
     - [ ] Compute pairwise patch bag distances
     - [ ] Compute random walk distances
     - [ ] Compute GLIDE distances
+- [ ] Check out [CPORT](http://alcazar.science.uu.nl/services/CPORT/) and [SpotOn](https://alcazar.science.uu.nl/cgi/services/SPOTON/spoton/) for interface prediction stuff
 
 ---
 ## [[Coral PPI Prediction]]
-- [ ] We need to generate [[Coral experimental candidates]] for experimental validation ASAP
+- [ ] #important Narrow down heat shock protein list in [[Coral experimental candidates#Hannah Heat Shock Proteins]]
+- [ ] #important Search for Beta Propeller candidates [[Coral experimental candidates#Beta Propellers]]
     - 20-100 candidate interactions 
-    - [x] Put together [[List of questions about coral experiment types]] 
-    - [x] [[Meet with Natasha and Judith 05 Jan 2021]]
-    - [x] [[Meeting with Hollie 04 Jan 2021]]
 - [ ] Map [ReefGenomics](http://pdam.reefgenomics.org/) [Pdam](https://www.nature.com/articles/s41598-018-34459-8) IDs to NCBI IDs
 - [ ] Enrichment of high/low pH interactions --> Federica Scucchia Haifa
 
@@ -41,17 +41,22 @@
 ## [[SARS-Cov-2 Phylogenetics]]
 - [ ] Hammer out detailed methods with Sumaira
 - [ ] Update leaf names on circular ancestral transfers plot to be more readable
-- [ ] Check _direction_ of transfers
-    - [ ] And update Circos plot
-- [ ] Compute statistics on individual transfers and bunched transfers
+- [x] Check _direction_ of transfers
+- [ ] And update [Circos plot](http://mkweb.bcgsc.ca/tableviewer/)
+- [ ] **Compute statistics on individual transfers and bunched transfers**
 - [ ] Standardize name map (and update figures)
-
+- [ ] Re-root trees with MAD rooting (need to re-optimize branch lengths) and re-do transfer analysi
+- [ ] Read [[Recombination_In_Viruses_Losada.pdf]]
 - [x] Read papers in [[Reading List#Species Tree Estimation]] and [[Reading List#Recombination Detection]]
 - [x] Identify transfers with >80% bootstrap support and top transfers in clade of interest
 - [x] Present tables in tree/figure format for next week
 - [x] Schedule a meeting with Sumaira
 - [x] Identify important transfers to present with Sumaira
 
+---
 ## General
 
+- [ ] Check out [pdb-tools](https://github.com/haddocking/pdb-tools)
+- [ ] Review for Lenore at [Bioinformatics](https://mc.manuscriptcentral.com/bioinformatics)
 - [ ] Write [[Master's Thesis#Proposal]]
+- [ ] Update Struct2Net Templates / DBLRAP
