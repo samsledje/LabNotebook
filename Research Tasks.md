@@ -1,20 +1,13 @@
 ## [[CNN Protein Contact Prediction | PPI Prediction Methods]]
-- [x] #important 2 page camera ready for RECOMB proceedings #due 22 January
-    - [[List of updates made for DSCRIPT bioRxiv]]
-- [ ] #important Update paper for bioRxiv #due 22 January
 - [ ] #important Get [[Compare performance with MSA based models | MSA]] contact map prediction running
 - [ ] [[Biological Case Study for RECOMB Cell Systems]] #due 1 April
 - [ ] Pool data from many species to train model
 - [ ] See how quickly PIPR gets better when given additional fly/mouse data to train on - how generalizable are we / how much tuning is needed to perform better
     - train/test split by protein, not by protein pair
 - [ ] Can D-SCRIPT embeddings be used for remote #homology detection and #function prediction
-- [x] Submit abstract to [CSHL Networks Meeting](https://meetings.cshl.edu/meetings.aspx?meet=NETWORK&year=21)
 
 ---
 ## [[Interface Classification]]
-- [x] #important Get [[Kolodny_Protein_Interface_Similarity.pdf | PatchBag]] up and running to generate basis vectors for a given protein - [[Running PatchBag]]
-- [x] #important Compare clustering in D-SCRIPT embedding space and PatchBag space -- how similar are they _out of the bag_
-- [ ] #important Share patchBag code with Kapil
 - [ ] Recovering Patch Bag Embeddings
     - [x] Generate patch bag embeddings for known PDB proteins
     - [x] Cluster patch bag embeddings
@@ -28,25 +21,32 @@
 
 ---
 ## [[Coral PPI Prediction]]
-- [ ] #important Narrow down heat shock protein list in [[Coral experimental candidates#Hannah Heat Shock Proteins]]
-- [ ] #important Search for Beta Propeller candidates [[Coral experimental candidates#Beta Propellers]]
+- [ ] #important Narrow down heat shock protein list in [[Coral validation candidates#Hannah Heat Shock Proteins]]
+- [ ] #important Search for Beta Propeller candidates [[Coral validation candidates#Beta Propellers]]
     - 20-100 candidate interactions 
-- [ ] Map [ReefGenomics](http://pdam.reefgenomics.org/) [Pdam](https://www.nature.com/articles/s41598-018-34459-8) IDs to NCBI IDs
 - [ ] Enrichment of high/low pH interactions --> Federica Scucchia Haifa
+- [ ] Predict PPI interactome in [_Montipora capitata_](http://cyanophora.rutgers.edu/montipora/)
 
 ## Network-Sequence Hybrid
+
+- [ ] Take only HIGH confidence D-SCRIPT interactions as "starter" network
+    - see what interactions GLIDE would predict
+    - what is their overlap with OTHER predictions D-SCRIPT makes
+    - what functional things can we say about the NEW network that we couldn't about the OLD network
 - [ ] GLIDE stuff w/ Kapil
 
 ---
 ## [[SARS-Cov-2 Phylogenetics]]
-- [ ] Hammer out detailed methods with Sumaira
+- [x] Hammer out detailed methods with Sumaira
 - [ ] Update leaf names on circular ancestral transfers plot to be more readable
 - [x] Check _direction_ of transfers
+    - [ ] For transfers with support in either direction, see if they are unidirectional in individual trees (since we created 10 different ones) -- within a tree, support should be directionally consistent
 - [ ] And update [Circos plot](http://mkweb.bcgsc.ca/tableviewer/)
 - [ ] **Compute statistics on individual transfers and bunched transfers**
 - [ ] Standardize name map (and update figures)
-- [ ] Re-root trees with MAD rooting (need to re-optimize branch lengths) and re-do transfer analysi
-- [ ] Read [[Recombination_In_Viruses_Losada.pdf]]
+- [ ] Search window analysis for conclusions concordant with ancestral transfers
+- [x] Re-root trees with MAD rooting (need to re-optimize branch lengths) and re-do transfer analysis
+- [x] Read [[Recombination_In_Viruses_Losada.pdf]]
 - [x] Read papers in [[Reading List#Species Tree Estimation]] and [[Reading List#Recombination Detection]]
 - [x] Identify transfers with >80% bootstrap support and top transfers in clade of interest
 - [x] Present tables in tree/figure format for next week
@@ -57,6 +57,6 @@
 ## General
 
 - [ ] Check out [pdb-tools](https://github.com/haddocking/pdb-tools)
-- [ ] Review for Lenore at [Bioinformatics](https://mc.manuscriptcentral.com/bioinformatics)
+- [ ] #important Review for Lenore at [Bioinformatics](https://mc.manuscriptcentral.com/bioinformatics)
 - [ ] Write [[Master's Thesis#Proposal]]
 - [ ] Update Struct2Net Templates / DBLRAP

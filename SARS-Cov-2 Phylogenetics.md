@@ -2,19 +2,19 @@
 
 [Dropbox](https://www.dropbox.com/sh/pffc8guf9uvb4ox/AACiWBY9YgaFyRTbOgUXGdkLa?dl=0)
 
-### Software
+## Software
 
 [TreeTime](https://github.com/neherlab/treetime)
 
 [iTOL](https://itol.embl.de/upload.cgi)
 
-### Literature
+## Literature
 
 [[Reading List#Species Tree Estimation]]
 
 [[Fast and accurate branch lengths estimation for phylogenomic trees]]
 
-[A new coronavirus associated with human respiratory disease in China - Wu](s41586-020-2008-3)
+[A new coronavirus associated with human respiratory disease in China - Wu](https://pubmed.ncbi.nlm.nih.gov/32015508/)
 
 [[The proximal origin of SARS-CoV-2 - Andersen]]
 
@@ -24,12 +24,33 @@
 
 [[Evolutionary Insights into the Ecology of Coronaviruses]]
 
-### Kellis Resources
+## Kellis Resources
 
 [[SARS-CoV-2 PhyloCSF - Google Docs]]
 
-### TODO
+## Methods
 
+### Species Tree Reconstruction
+- How species were chosen
+    - Check Irwin for how he selected the 44
+    - Added pangolins for SARS-CoV-2, Added civet for SARS
+- BEAST of whole genome, NRR A, NRR B
+    - GTR + $\Gamma$
+    - Uncorrelated relaxed clock with lognormal distribution, informative rate prior
+
+### Gene Family Recombination
+- Genes were either annotated or known annotations were aligned to species with unknown annotations
+- Align with Muscle
+- RAxML constructs unrooted gene tree (GTR + $\Gamma$, 100 rapid bootstraps)
+- Error correct with TreeFix-DTL (10x) (default parameters) -- use NRR B as species tree
+- (If doing MAD rooting) -- Optimize branch lengths with RAxML
+- Root with OptRoot (default parameters) (or MAD rooting)
+- For each TreeFix tree - run Ranger-DTL (100x) (default parameters) -- use NRR B as species tree
+- For each gene family, 1000 "bootstrap" reconciliations
+
+### Rates Analysis
+
+## TODO
 [[Research Tasks]]
 
 - Sliding window construct alignments with muscle / MAFFT
@@ -59,6 +80,9 @@
 - DTL reconciliation with
     - Neighboring trees
     - Genome tree
+
+## Misc Notes
+    
 - Look for transfers from Aggregate Ranger
 
     ```bash
@@ -77,7 +101,6 @@
     done
     ```
 
-### Misc Notes
 
 - Potential recombination breakpoints
     - ~ 12k nucleotides

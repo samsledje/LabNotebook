@@ -2,6 +2,7 @@
 - [[List of questions about coral experiment types]] 
 - [[Meet with Natasha and Judith 05 Jan 2021]]
 - [[Meeting with Hollie 04 Jan 2021]]
+- [[Meeting with Debashish and Phil 28 Jan 2021]]
 
 # Experimental Validation High Level
 get clusters that are involved with sensory perception in 3 networks, take pairs we predict and validate some
@@ -37,17 +38,18 @@ get clusters that are involved with sensory perception in 3 networks, take pairs
 - 403843271590465059
 - 259720880979499154
 
-## Beta Propellers
-1. Find Alpha, Beta, Gamma Homologs
+## GPCRs
+_Judith K-S, Nathan Brenner_
+
+1. Find [Alpha](https://www.uniprot.org/uniprot/P08539), Beta, [Gamma](https://www.uniprot.org/uniprot/G3V2N0) Homologs
 2. Union of all hhblits hits to identify candidates
 3. Run all vs. all predictions
 4. Find triad of alpha/beta/gamma interaction
 5. See where those proteins slot in to larger functional modules
 
-## GPCRs from Judith
-Uniprot GPCR list?
+## Toll-Like Receptors
+_Lokender Kumar_
 
-## TLRs from Lokender
 TLRs, find interaction partners as homologs with human interactors of TLRs
 Stimulate cell with signals and do qPCR
 - **pdam_00000737-RA**
@@ -98,7 +100,9 @@ Stimulate cell with signals and do qPCR
         - pdam_00019835-RA in **1107002493754196241** -- GTPase activity
 - pdam_00009200-RA
 
-## Hannah Heat Shock Proteins
+## Heat Shock Proteins
+_Hannah Reich, Hollie Putnam_
+
 This list obtained by BLASTing [Q5FB17 - Pdam HSP70](https://www.uniprot.org/uniprot/Q5FB17.fasta) against our Pdam database
 
 1. Extract all heat shock proteins from Pdam FASTA file
@@ -106,10 +110,12 @@ This list obtained by BLASTing [Q5FB17 - Pdam HSP70](https://www.uniprot.org/uni
 3. Take union of clusters and form heat shock subgraph
 4. [HHBlits](https://hhblits.cs.tufts.edu/) heat shock subgraph proteins against human or mouse
 5. Look for RNAseq data correlation and limit to high correlated interactions
-6. Try docking on that reduced set
+6. Proteomics
+7. Look at coevolution / evolutionary trace 
+8. Docking prediction
     1. Predict structure w/ RaptorX
     2. Dock w/ ClusPro
-7. Filter on PIPR predictions?
+9. Filter on PIPR predictions?
 
 - pdam_00009088-RA: **1949589803738394157**
 - pdam_00014847-RA: **1949589803738394157**
@@ -122,7 +128,11 @@ This list obtained by BLASTing [Q5FB17 - Pdam HSP70](https://www.uniprot.org/uni
 
 **476510776833627218** - DnaJ cluster
 
-## Hannah Metabolism
+Compare interactions in clade C vs. clade D, clade D has higher heat tolerance
+
+## Metabolism
+_Hannah Reich_
+
 - pdam_00005699-RA
 - pdam_00020994-RA
     - Cluster: **598905948006133749**
@@ -146,11 +156,3 @@ This list obtained by BLASTing [Q5FB17 - Pdam HSP70](https://www.uniprot.org/uni
 - pdam_00016812-RA
 - pdam_00005771-RA
     - Cluster: 763831930704106115
-
-Compare interactions in clade C vs. clade D, clade D has higher heat tolerance
-
-paper 1:
-    hollie, hannah, metal binding
-    
-paper 2:
-    judith et al, sensory perception, response to light, heat shock proteins
