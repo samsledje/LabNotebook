@@ -6,6 +6,8 @@
 
 [[Coral Network Clusters & Enrichment]]
 
+[[Coral validation candidates]]
+
 ---
 
 [[Research Tasks]]

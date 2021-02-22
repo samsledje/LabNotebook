@@ -1,64 +1,66 @@
 # Reading List
   
- - [ ] #interface [[Severrisson_Deciphering_interaction_fingerprints.pdf]]
- - [ ] #covid  [[Fu_Classification_of_Coronaviruses.pdf]]
-- [ ]  #proteins [[Fast_and_effective_protein_model_refinement_Xu.pdf]]
-- [ ]   #proteins [[Biophysical_prediction_of_protein_peptide_interactions_Cunningham.pdf]]
+  - [ ] #interface [[Gainza_et_al_2020_Deciphering_interaction_fingerprints_from_protein_molecular.pdf]]
+ - [ ] #proteins [Evolution of resilience in protein interactomes across the tree of life](https://pubmed.ncbi.nlm.nih.gov/30765515/)
+ - [ ] #networks [[Devkota_et_al_GLIDER.pdf]]
+ - [ ] #covid  [[Fu_et_al_2020_A_Comprehensive_Classification_of_Coronaviruses_and.pdf]]
+- [ ]  #proteins [[Jing_Xu_2020_Fast_and_effective_protein_model_refinement_by_deep_graph.pdf]]
+- [ ]   #proteins [[Cunningham_et_al_2020_Biophysical_prediction_of_protein–peptide_interactions_and.pdf]]
 - [ ]  #proteins #function [Structure-Based Protein Function Prediction using Graph Convlutional Networks](https://www.biorxiv.org/content/10.1101/786236v2.full.pdf)
-- [ ] #protiens #embedding #important [[Evolutionary_Context_Deep_Sequence_Modeling_Peng.pdf]]
+- [ ] #protiens #embedding #important [[Luo_et_al_Evolutionary_context-integrated_deep_sequence_modeling_for.pdf]]
 - [ ] #single-cell #transcriptomics [DRscDB: A single-cell RNA-seq resource for data mining and data comparison across species](https://www.biorxiv.org/content/10.1101/2021.01.29.428862v1)
 - [ ] #coral #proteins [Comparitive analysis of the Pocillopora damicornis genome highlights role of immune system in coral evolution](https://www.nature.com/articles/s41598-018-34459-8)
-- [ ] #proteins [[End_to_end_differentiable_Al_Quraishi.pdf]]
+- [ ] #coral [[Okashah et al. - 2019 - Variable G protein determinants of GPCR coupling s.pdf]]
+- [ ] #proteins [[AlQuraishi_2019_End-to-End_Differentiable_Learning_of_Protein_Structure.pdf]]
 - [x] #proteins #embedding [[Can We Learn the Language of Proteins]] 
 - [x] #proteins [[CASP14 what Google DeepMind’s AlphaFold 2 really achieved, and what it means for protein folding, biology and bioinformatics]] 
 - [x]  #perturbation [[Interpretable_Machine_Learning_Bo_Yuan.pdf]]
 - [x] #proteins [AlphaFold Blog Fabian Fuchs](https://fabianfuchsml.github.io/alphafold2/)
-- [x] #proteins [[Porter_What_Method_For_Docking.pdf]]
+- [x] #proteins [[Porter_et_al_2019_What_method_to_use_for_protein–protein_docking.pdf]]
 
 ## NeurIPS
-- [x] #neurips #graphs #uncertainty   [[NeurIPS-2020-stochastic-deep-gaussian-processes-over-graphs-Paper.pdf]] 
-- [ ]  #neurips [[NeurIPS-2020-co-tuning-for-transfer-learning-Paper.pdf]] 
-- [ ]  #neurips  [[NeurIPS-2020-towards-playing-full-moba-games-with-deep-reinforcement-learning-Paper.pdf]] 
-- [x] #neurips  [[NeurIPS-2020-learning-mutational-semantics-Paper.pdf]]
-- [ ]  #neurips #uncertainty  [[NeurIPS-2020-multi-task-causal-learning-with-gaussian-processes-Paper.pdf]] 
-- [x] #neurips #graphs [[NeurIPS-2020-open-graph-benchmark-datasets-for-machine-learning-on-graphs-Paper.pdf]]
-- [ ]  #neurips #graphs [[NeurIPS-2020-higher-order-spectral-clustering-of-directed-graphs-Paper.pdf]]
-- [ ]  #neurips #graphs [[NeurIPS-2020-pgm-explainer-probabilistic-graphical-model-explanations-for-graph-neural-networks-Paper.pdf]]
-- [ ]  #neurips [[NeurIPS-2020-what-do-neural-networks-learn-when-trained-with-random-labels-Paper.pdf]] 
-- [ ] #neurips #bayesian #phylogenetics [[NeurIPS-2020-improved-variational-bayesian-phylogenetic-inference-with-normalizing-flows-Paper.pdf]] 
-- [ ]  #neurips [[NeurIPS-2020-a-combinatorial-perspective-on-transfer-learning-Paper.pdf]] 
-- [ ]  #neurips #graphs [[NeurIPS-2020-rethinking-pooling-in-graph-neural-networks-Paper.pdf]] 
-- [ ] #neurips #graphs #uncertainty [[NeurIPS-2020-uncertainty-aware-semi-supervised-learning-on-graph-data-Paper.pdf]]
+- [x] #neurips #graphs #uncertainty   [[Li_et_al_Stochastic_Deep_Gaussian_Processes_over_Graphs.pdf]] 
+- [ ]  #neurips [[You_et_al_Co-Tuning_for_Transfer_Learning.pdf]] 
+- [ ]  #neurips  [[Ye_et_al_Towards_Playing_Full_MOBA_Games_with_Deep_Reinforcement.pdf]] 
+- [x] #neurips  [[Hie_et_al_Learning_Mutational_Semantics.pdf]]
+- [ ]  #neurips #uncertainty  [[Aglietti_et_al_Multi-task_Causal_Learning_with_Gaussian_Processes.pdf]] 
+- [x] #neurips #graphs [[Hu_et_al_Open_Graph_Benchmark.pdf]]
+- [ ]  #neurips #graphs [[Laenen_Sun_Higher-Order_Spectral_Clustering_of_Directed_Graphs.pdf]]
+- [ ]  #neurips [[Maennel_et_al_What_Do_Neural_Networks_Learn_When_Trained_With_Random.pdf]] 
+- [ ] #neurips #bayesian #phylogenetics [[Zhang_Improved_Variational_Bayesian_Phylogenetic_Inference_with.pdf]] 
+- [ ]  #neurips [[Wang_et_al_A_Combinatorial_Perspective_on_Transfer_Learning.pdf]] 
+- [ ]  #neurips #graphs [[Mesquita_et_al_Rethinking_pooling_in_graph_neural_networks.pdf]] 
+- [ ] #neurips #graphs #uncertainty [[Zhao_et_al_Uncertainty_Aware_Semi-Supervised_Learning_on_Graph_Data.pdf]]
 - [ ] [TrajectoryNet](https://arxiv.org/abs/2002.04461)
-- [ ] #neurips #graphs [[NeurIPS-2020-iterative-deep-graph-learning-for-graph-neural-networks-better-and-robust-node-embeddings-Paper.pdf]]
+- [ ] #neurips #graphs [[Chen_et_al_Iterative_Deep_Graph_Learning_for_Graph_Neural_Networks.pdf]]
 - [ ] #neurips #graphs [Subgraph Neural Networks](https://zitniklab.hms.harvard.edu/projects/SubGNN/)
-- [ ] #neurips #graphs [[NeurIPS-2020-random-walk-graph-neural-networks-Paper.pdf]]
+- [ ] #neurips #graphs [[Nikolentzos_Vazirgiannis_Random_Walk_Graph_Neural_Networks.pdf]]
     - [Graph Kernel Method](https://arxiv.org/abs/1911.11119)
-- [ ] #neurips #bayesian [[NeurIPS-2020-towards-scalable-bayesian-learning-of-causal-dags-Paper.pdf]]
-- [ ] #lmrl #proteins [[LMRL_structural_alignments_from_sequence.pdf]]
-- [ ] #lmrl #perturbation [[LMRL_Constructing_Data-Driven_Network_Models_of_Cell_Dynamics_with_Perturbation_Experiments.pdf]]
-- [ ] #lmrl #proteins [[LMRL_Streamlining_value_of_protein_embeddings_through_bio_embeddings.pdf]]
+- [ ] #neurips #bayesian [[Viinikka_Hyttinen_Towards_Scalable_Bayesian_Learning_of_Causal_DAGs.pdf]]
+- [ ] #lmrl #proteins [[Morton_et_al_2020_Protein_Structural_Alignments_From_Sequence.pdf]]
+- [ ] #lmrl #perturbation [[Yuan_et_al_Constructing_Data-Driven_Network_Models_of_Cell_Dynamics.pdf]]
+- [ ] #lmrl #proteins [[Dallago_et_al_Streamlining_value_of_protein_embeddings_through.pdf]]
 
 # Species Tree Estimation
 #covid
 
-- [x] [[Uncertainty_SARS_CoV_2_Rooting_Nielsen.pdf]]
+- [x] [[Pipes_et_al_Assessing_Uncertainty_in_the_Rooting_of_the_SARS-CoV-2.pdf]]
     - Uses fewer sequences from earlier in the pandemic
     - Compares outgroup rooting with molecular-clock based using ML and Bayesian optimization
-- [x] [[Stamatakis_Phylogeny_SARS_CoV_2_is_Difficult.pdf]]
+- [x] [[Morel_et_al_2020_Phylogenetic_analysis_of_SARS-CoV-2_data_is_difficult.pdf]]
     - Use ~8k sequences available through May
     - Find evidence for a "rugged likelihood surface" --> motivates the use of TreeFix-DTL
     - Recommends against using a single ML tree with default parameters, which we will also support
     - Not very much relevant to use wrt rooting
-- [x] [[El_Kebir_Characterization_of_SARS_CoV_2_Diversity.pdf]]
-- [x] [[Pangolin_Pybus.pdf]]
+- [x] [[Sashittal_et_al_2020_Characterization_of_SARS-CoV-2_viral_diversity_within_and.pdf]]
+
 # Recombination Detection
 #covid 
 
 - [x] [Recombination should not be an afterthought](https://www.nature.com/articles/s41579-020-00451-1)
     - General motivation for why it is important to study recombination, short article
-- [x] [[Recombination_In_Viruses_Losada.pdf]]
-- [ ] [The receptor binding domain of SARS-CoV-2 spike protein is the result of an ancestral recombination between the bat-CoV RaTG13 and the pangolin-CoV MP789](https://link.springer.com/article/10.1186/s13104-020-05242-8)
-- [ ] [Recombination and lineage-specific mutations led to the emergence of SARS-CoV-2](https://www.biorxiv.org/content/10.1101/2020.02.10.942748v2)
-- [x] [[GARD_Recombination_Pond.pdf]]
+- [x] [[Pérez-Losada_et_al_2015_Recombination_in_viruses.pdf]]
+- [ ] [[Flores-Alanis_et_al_2020_The_receptor_binding_domain_of_SARS-CoV-2_spike_protein_is.pdf]]
+- [ ] [[Patiño-Galindo et al. - 2020 - Recombination and lineage-specific mutations led t.pdf]]
+- [x] [[Kosakovsky_Pond_et_al_2006_GARD.pdf]]
 - [ ] [SimPlot](https://sray.med.som.jhmi.edu/SCRoftware/simplot/)

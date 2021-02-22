@@ -8,7 +8,7 @@
     - Identify _core_ evolutionary protein machinery that is conserved across the tree of life -- i.e. [heat shock protein](https://advances.sciencemag.org/content/7/1/eabd4210)
 - Investigate early history of eukaryotic evolution -- **ancient interactome** -- Eric Baptiste
 - How do coral [recognize](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1462-5822.2006.00765.x) and [pick up](https://pubmed.ncbi.nlm.nih.gov/22688813/) symbionts in the environment -- protein/sugar interactions, protein/protein interactions
-- Predictions in [_M. capitata_]((http://cyanophora.rutgers.edu/montipora/)) and compare with RNA-seq co-expression **[Github](https://github.com/echille/Montipora_OA_Development_Timeseries/tree/master/RNAseq_Analyses)**
+- Predictions in [_M. capitata_](http://cyanophora.rutgers.edu/montipora/) and compare with RNA-seq co-expression **[Github](https://github.com/echille/Montipora_OA_Development_Timeseries/tree/master/RNAseq_Analyses)**
 
 ## Follow up with Rohit
 - Predict PPI networks in 3 related coral species

@@ -50,36 +50,17 @@
 
 ### Rates Analysis
 
-## TODO
+## Results
+
+
+## To Do
 [[Research Tasks]]
 
-- Sliding window construct alignments with muscle / MAFFT
-    - Window size, jump
-    - Slide windows 1000, jump 500bp
-    - Along entire sequence or just in areas of interest
-    - Include MERS in alignment
-- Construct phylogenies
-    - Whole genome phylogeny
-    - RAxML with fast bootstrapping
-    - raxmlHPC -m GTRGAMMA -s <codonalignment> -n <outputfile> -p 1
-    - Settle on list of species
-        - New random bat genomes, pangolin, civet cats, outgroup
-        - 100 best bat hits, choose some number randomly with low e-value to capture diversity of bat covid genomes
-- Root phylogenies
-    - Outgroup - SARS / KY352407
-    - MAD rooting
-    - RAxML midpoint rooting
-- Error Correction
-    - TreeFix-DTL
-    - TreeSolve
 - TreeTime rescaling and rate estimation
     - Re-estimate branch lengths with RAxML
     - TreeTime units are years - what are rates??
     - Supposed recombination breakpoints
     - Entire genome alignment
-- DTL reconciliation with
-    - Neighboring trees
-    - Genome tree
 
 ## Misc Notes
     

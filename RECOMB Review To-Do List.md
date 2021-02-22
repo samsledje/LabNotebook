@@ -31,7 +31,7 @@
     - Answers that question "Do they interact, and if so how" rather than "We assume they interact, how"
 
 ### Additional Experiments
-- [ ] [[Compare performance with MSA based models]], including [[Complex Contact Xu]],  [EVcoupling](https://github.com/debbiemarkslab/EVcouplings), [EVcomplex](https://elifesciences.org/articles/03430), **[[Gremlin-Complex Baker]]**
+- [ ] [[Compare performance with MSA based models]], including [[Complex Contact Xu]],  [EVcoupling](https://github.com/debbiemarkslab/EVcouplings), [EVcomplex](https://elifesciences.org/articles/03430), [[Gremlin-Complex Baker]]
     - Try for something like E. Coli, S. Cerevisiae
     - What do these methods do for proteins that don't interact? If they still try to make a guess --> you can't do pooling on that
 - [ ] "Distribution of GO terms should be studied directly in the embedding space or the inferred PPI networks"
