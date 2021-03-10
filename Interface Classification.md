@@ -1,5 +1,7 @@
 # Find Color Motifs in Interaction Networks
 
+## [[Research Tasks#Interface Classification | Tasks]]
+
 This ties in with [[D-SCRIPT Embedding UMAP]]
 
 ## Protein Structure Landscape Research
@@ -11,15 +13,13 @@ This ties in with [[D-SCRIPT Embedding UMAP]]
 - [ ] [[Osadchy_Kolodny_Maps_of_protein_structure.pdf]]
 
 ## Rohit Email Ideas
-1. A protein’s 3D binding #interface is a meaningful, conserved entity: if A and B interact, and you define A’s neighbors based on binding pocket structural similarity (and ditto for B), these neighbors are likely to interact. This is similar to our knn analysis, as Sam was mentioning. 
-2. Of the 4 SCOP classes (alpha, beta, alpha/beta, alpha+beta), the alpha/beta class shows the most continuity in structural variation. It is also the class where nearby structures have the greatest risk of being functionally different (function as annotated by GO terms).
-
-For #1 above, I don’t think there’s a binding-pocket classification we can directly use for our method-- we’d need to build it ourselves **(clustering Kolodny embeddings)**. They demonstrated only a proof of concept in the [[Kolodny_Protein_Interface_Similarity.pdf |  2018 Paper]] #interface 
-
-Not all of these directly build upon our PPI work, but they do use similar thinking. Below, I sketch out some ideas that might be interesting. I’m not saying we should do these-- they are intended just as a starting point for future discussion.
+> 1. A protein’s 3D binding #interface is a meaningful, conserved entity: if A and B interact, and you define A’s neighbors based on binding pocket structural similarity (and ditto for B), these neighbors are likely to interact. This is similar to our knn analysis, as Sam was mentioning. 
+> 2. Of the 4 SCOP classes (alpha, beta, alpha/beta, alpha+beta), the alpha/beta class shows the most continuity in structural variation. It is also the class where nearby structures have the greatest risk of being functionally different (function as annotated by GO terms).
+> For #1 above, I don’t think there’s a binding-pocket classification we can directly use for our method-- we’d need to build it ourselves **(clustering Kolodny embeddings)**. They demonstrated only a proof of concept in the 2018 paper [[Budowski-Tal_et_al_2018_A_Novel_Geometry-Based_Approach_to_Infer_Protein_Interface.pdf]] #interface 
+> Not all of these directly build upon our PPI work, but they do use similar thinking. Below, I sketch out some ideas that might be interesting. I’m not saying we should do these-- they are intended just as a starting point for future discussion.
 
 ### PPI prediction
-We start from the [[D-SCRIPT]] n-x-100 dimensional embedding and extract from it the subspace that corresponds to a protein’s binding pocket structure. One way to do this will be to train a Siamese network structure: training on the set of PDB structures with known binding interfaces, pass two sequences through identical models (shared parameters) that each reduce the D-SCRIPT n-x-100 embedding to a k-dimensional vector. We then compute the dot-product of these vectors, using that as a measure of similarity between the proteins and supervising the measure with the ground-truth structural similarity of the two binding pockets (calculated by distance between vectors from [[Kolodny_Protein_Interface_Similarity.pdf | PatchBag]]. At the end of training, the k-dimensional embedding will capture the binding pocket characteristics of a protein, **and we can perform clustering on these k-dimensional vectors**; this would be similar to node “color” as we’ve talked about. We’d use this information with a [[D-SCRIPT + Glide | graph theoretic method]] and/or use it to [[D-SCRIPT with Attention | make D-SCRIPT’s model better]]. 
+We start from the [[D-SCRIPT]] n-x-100 dimensional embedding and extract from it the subspace that corresponds to a protein’s binding pocket structure. One way to do this will be to train a Siamese network structure: training on the set of PDB structures with known binding interfaces, pass two sequences through identical models (shared parameters) that each reduce the D-SCRIPT n-x-100 embedding to a k-dimensional vector. We then compute the dot-product of these vectors, using that as a measure of similarity between the proteins and supervising the measure with the ground-truth structural similarity of the two binding pockets (calculated by distance between vectors from [[Kolodny_Protein_Interface_Similarity.pdf | PatchBag]]. At the end of training, the k-dimensional embedding will capture the binding pocket characteristics of a protein, **and we can perform clustering on these k-dimensional vectors**; this would be similar to node “color” as we’ve talked about. We’d use this information with a [[D-SCRIPT + Glide | graph theoretic method]] and/or use it to [[D-SCRIPT Version 2 | make D-SCRIPT’s model better]]. 
 
 Binding Pocket characterization is useful beyond PPI - classifying cell surface receptors based on binding pocket type
 

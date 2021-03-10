@@ -4,18 +4,10 @@ Augment embedding with MSA based embedding from [[Evolutionary_Context_Deep_Sequ
 
 ## Generate Single Sequence MSA
 Jackhmmr for MSA searching
-![[Pasted image 20210222124235.png]]
-
-Params from ComplexContact:
-    - Num Iterations: 8
-    - E-value cutoff: 1e-20
-    - maxfilt 100000000
-    - diff inf -all
-    - neffmax 20
+![[Jackhmmr directions.png]]
 
 ## Align MSA / Create Paired MSA
 - Pair MSAs using [EVcomplex](https://github.com/debbiemarkslab/EVcouplings) library ([Documentation](https://evcouplings.readthedocs.io/en/latest/evcouplings.complex.html#module-evcouplings.complex.protocol))
-- 
 
 ## Create Contact Map
 - [EVcoupling](https://evcouplings.readthedocs.io/en/latest/evcouplings.couplings.html)
@@ -23,3 +15,5 @@ Params from ComplexContact:
 
 ## Pool Contact Map
 - Our end step pooling layers of D-SCRIPT
+
+EVcomplex test link -- https://v1.evcouplings.org/jobs/f1420894618de74e30921601172082dc

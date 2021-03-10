@@ -1,0 +1,30 @@
+### Functional Categories
+- Immune Response -- t cell, antibody, etc.
+    - Cluster 1174848729407255872
+        - ENSBTAP00000066329.1 (rumen, TCHHL2)
+        - ENSBTAP00000060747.1 (rumen, TCHHL2)
+        - ENSBTAP00000060528.1 which is the center of the complex formed by two TCHHL2 proteins is 125 residues long, and has a 75.5% match to uniprot [A0A075B6I0](https://www.uniprot.org/uniprot/A0A075B6I0) and the human protein IGLV8-61 , one of the proteins part of the light chain of immunoglobulin (i.e. antibodies)
+- Calcium/Zinc/Magnesium/S100 binding
+    - Cluster 176923816438492726
+        - Calcium/Zinc/S100 binding
+        - ENSBTAP00000034009.2 (rumen, S100-A12)
+        - ENSBTAP00000008523.6 (rumen, S100-A12)
+        - ENSBTAP00000067294.1 (rumen, S100-A12)
+        - ENSBTAP00000000589.2 (rumen, S100-A2)
+    - Cluster 168738839553152664
+        - Magnesium ion binding
+        - ENSBTAP00000065881.1 (rumen, PRD-SPRII)
+- Transcription factor binding / RNA polymerase / DNA binding
+    - ENSBTAP00000070470.1 (rumen, PRD-SPRII)
+        - Cluster 1850439014906493520
+    - ENSBTAP00000044090.1 (rumen, PRD-SPRII)
+        - Cluster 86361064972292472
+    - ENSBTAP00000056088.2 (rumen, S100-A12) - nucleosomal DNA binding
+        - Cluster 1537834445780902574
+    - ENSBTAP00000044358.4 -- 89% match to [Q8NFJ8](https://www.uniprot.org/uniprot/Q8NFJ8)
+    - 
+- [SH2](https://pfam.xfam.org/family/SH2) Domain Binding + TCell + Calcium
+    - ENSBTAP00000063491.1 (rumen, PRD-SPRII) spans all 3 categories
+        - Cluster 667131679185152507
+    - ENSBTAP00000070493.1 (rumen, PRD-SPRII) spans all 3 categories
+        - Cluster 47757620804051827

@@ -21,5 +21,5 @@ ls ~/db/pdb_STRING/ | grep pdb | parallel --eta 'bash extractInterfaceFileFromPD
     Can launch MATLAB in cmd line only with -nojvm
 
 ```
-[ PatchBagMatrix ] = createPatchbag(6, 50, '/afs/csail/u/s/samsl/Work/network_coloring/vreven_interfaces/', 1, 3, 0, 'inter', 'R')
+[ PatchBagMatrix ] = createPatchbag(6, 50, '/afs/csail/u/s/samsl/Work/Interface_Prediction/vreven_interfaces/', 1, 3, 0, 'inter', 'R')
 ```

@@ -10,6 +10,11 @@
 
 ### Background
 
+Tutorial to get into this type of work -- getting someone interested in working on this
+Include more references -- network based methods, 
+What type of data
+Why do you want to do this
+
 Bepler & Berger
 TAPE
 [[Kolodny_Protein_Interface_Similarity.pdf | PatchBag]]

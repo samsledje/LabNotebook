@@ -4,10 +4,6 @@
 
 ## Generate Candidate Pairs
 
-```bash
-[[]]
-```
-
 ## Pocillopora damicornis
 
 Symbiont: Symbiodinium goreaui (Clade C, type C1, now Cladocopium goreaui)

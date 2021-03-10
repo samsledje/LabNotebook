@@ -1,32 +1,25 @@
 # SARS-Cov-2 Phylogenetics
 
+## [[Research Tasks#SARS-Cov-2 Phylogenetics | Tasks]]
+
+
+## Data
 [Dropbox](https://www.dropbox.com/sh/pffc8guf9uvb4ox/AACiWBY9YgaFyRTbOgUXGdkLa?dl=0)
+
 
 ## Software
 
 [TreeTime](https://github.com/neherlab/treetime)
-
 [iTOL](https://itol.embl.de/upload.cgi)
 
 ## Literature
 
 [[Reading List#Species Tree Estimation]]
-
 [[Fast and accurate branch lengths estimation for phylogenomic trees]]
-
 [A new coronavirus associated with human respiratory disease in China - Wu](https://pubmed.ncbi.nlm.nih.gov/32015508/)
-
 [[The proximal origin of SARS-CoV-2 - Andersen]]
-
-[SARS-CoV-2 Human PPI](2020.03.22.002386v1.full)
-
 [[Evolutionary origins of the SARS-CoV-2 sarbecovirus lineage responsible for the COVID-19 pandemic]]
-
 [[Evolutionary Insights into the Ecology of Coronaviruses]]
-
-## Kellis Resources
-
-[[SARS-CoV-2 PhyloCSF - Google Docs]]
 
 ## Methods
 
@@ -51,16 +44,6 @@
 ### Rates Analysis
 
 ## Results
-
-
-## To Do
-[[Research Tasks]]
-
-- TreeTime rescaling and rate estimation
-    - Re-estimate branch lengths with RAxML
-    - TreeTime units are years - what are rates??
-    - Supposed recombination breakpoints
-    - Entire genome alignment
 
 ## Misc Notes
     

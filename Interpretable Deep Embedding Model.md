@@ -1,5 +1,7 @@
 # Interpretable Deep Embedding Model
 
+## [[Research Tasks#Interpretable Deep Embedding Model IDEM | Tasks]]
+
 [[IDEM_manuscript_Lily.pdf]]
 
 - Test datasets with random forest, knn, support vector machines, linear regression

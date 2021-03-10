@@ -1,5 +1,5 @@
 # Research
-
+- [[Research Tasks]]
 - [[Graduation Requirements]]
 - [[Resources & Textbooks]]
 - [[Project Archive]]
@@ -27,10 +27,8 @@
 
 [[NeurIPS Notes]]
 Zitnik queries on network embeddings —> schema single cell embeddings
-[[paper_application.pdf]]
 Graph convolutional NN
 GeneNetWeaver - simulate single cell data sets
 MIT Libproxy - <http://libproxy.mit.edu/login?url=>
-[[Research Tasks]]
 
 ---

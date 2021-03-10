@@ -1,7 +1,7 @@
 - [Candidate PPIs Google Sheet](https://docs.google.com/spreadsheets/d/1w-fJ8koBLLAzB_tMVrrdSSDLqvzsnsuprbEMwcJ89ZE/edit?usp=sharing)
 - [[List of questions about coral experiment types]] 
 - [[Meeting with Hollie 04 Jan 2021]]
-- [[Meet with Natasha and Judith 05 Jan 2021]]
+- [[Meeting with Natasha and Judith 05 Jan 2021]]
 - [[Meeting with Debashish and Phil 28 Jan 2021]]
 
 ### Coral Species
@@ -43,6 +43,6 @@ _A. millipora_
 
 [[Metabolism]]
 
-[[Fluoresence]] 
+[[Fluorescence | Fluorescence and Immune]] 
 
 [[Cross-Species]]
